@@ -1,0 +1,18 @@
+@use "../../assets/style/" as *;
+.todo-form {
+  @include flex-column;
+  padding: 2rem;
+  width: 100%;
+  @include justify-content-center;
+  @include align-items-center;
+  border-bottom: 0.2rem solid $light-grey;
+  font-size: 1.5rem;
+  .form-control {
+    font-size: 1.5rem;
+  }
+  .save-btn {
+    font-size: 1.5rem;
+    width: 10%;
+    border-radius: 2rem;
+  }
+}
